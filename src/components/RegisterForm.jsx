@@ -18,7 +18,8 @@ const RegisterForm = () => {
   }
 
   return (
-    <div className="rounded-2xl bg-[#EAF8F1] p-6 shadow-sm">
+    <div className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5">
+      <h2 className="mb-4 text-xl font-bold text-[#1A1A1A]">Create your account</h2>
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="space-y-1">
           <label htmlFor="email" className="block text-sm font-medium text-[#1A1A1A]">Email</label>
